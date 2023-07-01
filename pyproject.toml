@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "realsocketdjangochatapi"
+version = "0.1.0"
+description = ""
+authors = ["Narashi Kuga <orenvady@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.2"
+djangorestframework = "^3.14.0"
+pillow = "^10.0.0"
+channels = "^4.0.0"
+channels-redis = "^4.1.0"
+django-cors-headers = "^4.1.0"
+dj-rest-auth = "^4.0.1"
+django-allauth = "^0.54.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
